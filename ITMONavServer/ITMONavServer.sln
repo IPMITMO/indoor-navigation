@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99538E8E-F39F-4597-867F-AB3FF65B62C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96FE76F7-CA3A-4C87-AA90-521F7CD0C3B2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ITMONavServer.WebApi", "src\ITMONavServer.WebApi\ITMONavServer.WebApi.xproj", "{043BB0A4-E39D-4AE0-B0D2-B360640E05C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{043BB0A4-E39D-4AE0-B0D2-B360640E05C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043BB0A4-E39D-4AE0-B0D2-B360640E05C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043BB0A4-E39D-4AE0-B0D2-B360640E05C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043BB0A4-E39D-4AE0-B0D2-B360640E05C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{043BB0A4-E39D-4AE0-B0D2-B360640E05C2} = {99538E8E-F39F-4597-867F-AB3FF65B62C9}
+	EndGlobalSection
+EndGlobal
